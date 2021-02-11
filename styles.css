@@ -2,3 +2,7 @@
   padding: 3em;
   text-align: center;
 }
+
+.row > div {
+  float: left;
+}
