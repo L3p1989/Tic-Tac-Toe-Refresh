@@ -17,3 +17,23 @@
   margin: 0 auto;
   width: 302px;
 }
+
+.top {
+  border-bottom: black 1px solid;
+  cursor: pointer;
+}
+
+.bottom {
+  border-top: black 1px solid;
+  cursor: pointer;
+}
+
+.right {
+  border-left: black 1px solid;
+  cursor: pointer;
+}
+
+.left {
+  border-right: black 1px solid;
+  cursor: pointer;
+}
