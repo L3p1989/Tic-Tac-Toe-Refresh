@@ -4,5 +4,16 @@
 }
 
 .row > div {
+  height: 100px;
+  width: 100px;
   float: left;
+}
+
+.row::after {
+  clear: both;
+}
+
+.row {
+  margin: 0 auto;
+  width: 302px;
 }
