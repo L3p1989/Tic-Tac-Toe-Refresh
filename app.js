@@ -11,4 +11,9 @@ let msg = document.getElementById("message");
 let rows = document.querySelectorAll(".row");
 
 // Display message
-msg.textContent = "Hello World!"
+msg.textContent = `${turn ? players.player2 : players.player1}'s turn`
+
+//click event listener
+rows.forEach(row => {
+    row.addEventListener("click", () => alert("you clicked me!"));
+});
