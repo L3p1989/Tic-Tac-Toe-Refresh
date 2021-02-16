@@ -12,6 +12,3 @@ let rows = document.querySelectorAll(".row");
 
 // Display message
 msg.textContent = "Hello World!"
-
-//testing tiles
-rows.textContent = "X"
