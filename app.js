@@ -1,5 +1,14 @@
 // players
-let player1 = "X"
+const players = {player1: "X", player2: "O"}
 
-let player2 = "O"
+// Turn number
+let turn = 0;
 
+// message selector
+let msg = document.getElementById("message");
+
+// row selector
+let rows = document.querySelectorAll(".row");
+
+// Display message
+msg.textContent = "Hello World!"
