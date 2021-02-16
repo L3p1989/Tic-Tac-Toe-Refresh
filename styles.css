@@ -40,3 +40,7 @@
   border-right: black 1px solid;
   cursor: pointer;
 }
+
+.center {
+  cursor: pointer;
+}
