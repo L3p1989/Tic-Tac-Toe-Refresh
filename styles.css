@@ -1,12 +1,15 @@
 #board {
   padding: 3em;
   text-align: center;
+  justify-content: center;
 }
 
 .row > div {
   height: 100px;
   width: 100px;
   float: left;
+  font-size: xxx-large;
+  line-height: 2;
 }
 
 .row::after {
